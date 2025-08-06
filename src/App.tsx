@@ -12,7 +12,7 @@ function App() {
     .catch((error)=>{
       throw new error("error fetching the data");
     })
-  })
+  },[])
   return (
     <Home
     countries={countries}
